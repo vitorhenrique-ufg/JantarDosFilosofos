@@ -9,7 +9,7 @@ public class Mesa
         Filosofos = filosofos;
     }
 
-    public void PegueGarfo(int posicaoFilosoAtual)
+    public void PegueGarfos(int posicaoFilosoAtual)
     {
         lock (this)
         {
