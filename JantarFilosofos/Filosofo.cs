@@ -34,7 +34,7 @@ public class Filosofo
     public void PegueGarfo()
     {
         int posicaoFilosoAtual = Id - 1;
-        Mesa.PegueGarfo(posicaoFilosoAtual);
+        Mesa.PegueGarfos(posicaoFilosoAtual);
     }
 
     public void Coma()
